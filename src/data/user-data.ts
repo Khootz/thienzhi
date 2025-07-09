@@ -30,9 +30,9 @@ export const userInfo = {
         "role": "Data Engineering Analyst",
         "period": "Jun 2025 – Present",
         "responsibilities": [
-          "Behave Yourself: their startups.",
-          "Amploy: Automated ation Extension",
-          "Matiq: Lplacemnt",
+          "AI Agent: Developed a WhatsApp AI agent utilizing RAG to deliver accurate agentic workflows and enhance user engagement.",
+          "Chatbot: Created a chatbot for live website interactions and email inquiries, automating customer support and improving response times.",
+          "Business",
         ]
       },
       {
