@@ -26,8 +26,8 @@ export const userInfo = {
     ],
     "work_experience": [
       {
-        "company": "Cracked Engineers- Startup Sprint",
-        "role": "Founder and Developer",
+        "company": "Bindo Labs - Wonder",
+        "role": "Data Engineering Analyst",
         "period": "Jun 2025 – Present",
         "responsibilities": [
           "Behave Yourself: AAI-powered behavioural interviewer for startups to help them find the right candidates for their startups.",
