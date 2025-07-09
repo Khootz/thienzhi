@@ -30,9 +30,9 @@ export const userInfo = {
         "role": "Data Engineering Analyst",
         "period": "Jun 2025 – Present",
         "responsibilities": [
-          "Behave Yourself: AAI-powered behavioural interviewer for startups to help them find the right candidates for their startups.",
-          "Amploy: Automated Employ- Job Application Automation Extension",
-          "Matiq: LLM Powered PhotoMath Replacemnt",
+          "Behave Yourself: their startups.",
+          "Amploy: Automated ation Extension",
+          "Matiq: Lplacemnt",
         ]
       },
       {
