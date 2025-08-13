@@ -213,11 +213,12 @@ const SplashCursor = ({
     }
 
     function getUniforms(program: any) {
-      let uniforms: any[] = [];
-      let uniformCount = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
+      const uniforms: any = {};
+      const uniformCount = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
       for (let i = 0; i < uniformCount; i++) {
-        let uniformName = gl.getActiveUniform(program, i).name;
-        // @ts-ignore
+        const active = gl.getActiveUniform(program, i);
+        if (!active) continue;
+        const uniformName = active.name;
         uniforms[uniformName] = gl.getUniformLocation(program, uniformName);
       }
       return uniforms;
